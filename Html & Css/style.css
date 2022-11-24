@@ -1,0 +1,135 @@
+body{
+	<!--background:#C09999;-->
+	margin: 5px 10px;
+}
+h1{
+	text-decoration: underline;
+	text-align: center;
+	color:#286A6C
+	font-weight: bold;
+	font-family:serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color:darkblue ;
+}
+h2{
+	text-align: center;
+	color:#8A496B;
+	text-decoration: underline;
+}
+p{
+	<!--color: #286A6C;-->
+	font-weight:normal;
+	font-size: 20px;
+	line-height: 1cm;
+}
+.c1
+{
+	text-align:center;
+	color:#014421;
+	font-family:tahoma ;
+	font-style: normal;
+	text-transform:capitalize;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1em;
+	border: #014421 3px solid;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+	
+}
+.c2{
+    color:#286A6C;
+    
+}
+
+.c3{
+	color:#014421;
+	<!--background:grey-->
+}
+.container{
+	width:80%;
+	margin: auto;
+	
+	
+}
+.c4{
+	border: 1px #286A6C solid;
+	border-radius: 15px;
+}
+.c4 li{
+	padding: 5px;
+	border: grey 5px navajowhite;
+}
+.c4 ul{
+	list-style: square;
+}
+.c4 h1{
+	text-decoration: underline;
+	color:#8A496B;
+}
+.f1{
+	padding: 20px;
+}
+.fg{
+	padding-bottom: 20px;
+}
+.f1 label{
+	display:block ;
+}
+.f1 input[type="text"]{
+	padding: 10px;
+	width:100%;
+}
+.f1 input[type="email"]{
+	padding: 10px;
+	width:100%;
+}
+.f1 textarea[name="Message"]{
+	padding: 10px;
+	width:100%;
+}
+.button{
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	border: none;
+}
+.button:hover{
+	background-color:#286A6C ;
+	color: white;
+
+}
+.block{
+	float: left;
+	width: 33.3%;
+	border: 3px solid #ccc;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+
+}
+
+#foot1{
+	background-color:whitesmoke;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+	

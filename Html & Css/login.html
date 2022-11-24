@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .imgcontainer{
+                    text-align: center;
+                    margin:24px 0 12px 0;
+                }
+                img.avatar{
+                    width:25%
+                }
+                .container {
+                    padding: 30px;
+                    background-color: white;
+                    width: auto;
+                }
+                .field-container {
+                    background-color: white;
+                    width: auto;
+                    padding: 25px;
+                }
+                input {
+                    outline: 0;
+                    border-width: 0 0 2px;
+                    padding: 10px;
+                    width: 18.5%;
+                }
+                .image {
+                    border-right: 2px solid black;
+                    height: 36px;
+                    place-content: center;
+                    align-items: center;
+                    display: flex;
+                    border-bottom: 2px solid black;
+                    width: 3%;
+                }  
+                .title {
+                    place-content: center;
+                    align-items: center;
+                    text-align: center;
+                    display: flex;
+                }
+                .remember-me {
+                    width: 3% !important;
+                }
+                button {
+                    background-color: #c92325;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    cursor: pointer;text-align: center;
+                    place-content: center;
+                    align-items: center;
+                    display: flex;
+                    width: 15%;
+                }
+                .button-container {
+                    padding: 30px;
+                    background-color: white;
+                    width: 95%;
+                    place-content: center;
+                    align-items: center;
+                    display: flex;
+                }
+                .account-family {
+                    font-family: bradley hand;
+                    text-align: center;
+                    font-size: 20px;
+                }
+            </style>
+        </head>
+        <body>
+        <form  method="post">
+            <div class="imgcontainer">
+                <img src="./assests/img/logo.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <div class="field-container">
+                    <div class="title" id="name">
+                        <i class="material-icons image">person</i>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                    </div>
+                </div>    
+                <div class="field-container">
+                    <div class="title" id="password">
+                        <i class="material-icons image">lock</i>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="submit" name="login">Login</button>  
+                </div>
+            </div>
+
+            <div>
+                <p class="account-family">Not yet Registered?<a href="register.html">Join Now</a>.</p>
+            </div>
+        </form>
+        </body>
+</html>

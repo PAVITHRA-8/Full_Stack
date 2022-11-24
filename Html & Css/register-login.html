@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./js/register-login.js"></script>
+        <style>    
+            h2{
+                text-align: center;
+            }
+            .imgcontainer{
+                text-align: center;
+                margin:24px 0 12px 0;
+            }
+            img.avatar{
+                width:25%
+            }
+            button {
+                background-color: #c92325;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;text-align: center;
+                place-content: center;
+                align-items: center;
+                display: flex;
+                width: 15%;
+            }
+            .button-container {
+                display: flex;
+                padding: 30px;
+                background-color: white;
+                width: 95%;
+                place-content: center;
+                align-items: center;
+            }
+            .btn-anchor {
+                color: white !important;
+            }
+            @media screen and (min-width: 280px) and (max-width: 800px) {
+                button {
+                    width: 25% !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Click here to book your ticket</h2>  
+        <div class="imgcontainer">
+            <img src="./assests/img/logo.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="button-container">
+            <button type="submit"><a class="btn-anchor" href="register.html">REGISTER</a></button>    
+        </div>
+        <div class="button-container">
+            <button type="submit"><a class="btn-anchor" href="login.html">LOGIN</button>
+        </div>
+    </body>
+</html>
