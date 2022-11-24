@@ -212,7 +212,7 @@ a=parseFloat(a);
 console.log(a,typeof a);
 */
 
-//Type coercion
+//Type conversion
 
 /*
 let a="35";
