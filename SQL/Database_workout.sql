@@ -27,17 +27,6 @@ CREATE TABLE `db`.`employee` (
    `DOB` date NOT NULL,
   PRIMARY KEY (`empid`));
 
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('1', '1', '1/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('2', '3', '2/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('3', '4', '3/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('4', '5', '1/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('5', '6', '4/02', 'A');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('6', '7', '2/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('7', '8', '2/02', 'P');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('8', '9', '3/02', 'A');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('9', '10', '5/02', 'A');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('10', '11', '1/02', 'A');
-INSERT INTO `db`.`attendance` (`Aid`, `id`, `adate`, `astatus`) VALUES ('11', '12', '6/02', 'P');
 
 SELECT * FROM db.student;
 
