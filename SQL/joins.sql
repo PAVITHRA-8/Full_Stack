@@ -49,6 +49,14 @@ select *from db.student right join db.attendance on db.student.stuid= db.attenda
 
 select *from db.student full outer join db.attendance on db.student.stuid= db.attendance.aid
 
+create view student_v1  as select stuname,gender,city from db.student
+
+drop view student_v1 on db.student
+
+create index idx_student on db.student(gender);
+
+drop index idx_student on db.student
+
 
 
 
