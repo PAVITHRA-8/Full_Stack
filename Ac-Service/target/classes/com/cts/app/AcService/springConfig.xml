@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean name="dbutil" class="com.cts.app.AcService.dao.utility.AcServiceDaoUtility">
+<property name="url" value="jdbc:mysql://localhost:3306/ac" />
+<property name="userName" value="root" />
+<property name="password" value="Pavithra@28" />
+</bean>
+<bean name="customerBean" class="com.cts.app.AcService.entity.Customer">
+
+</bean>
+<bean name="dao" class="com.cts.app.AcService.dao.impl.CustomerDaoImpl"></bean>
+
+<bean name="deviceBean" class="com.cts.app.AcService.entity.Device">
+</bean>
+<bean name="dao1" class="com.cts.app.AcService.dao.impl.DeviceDaoImpl"></bean>
+
+<bean name="employeeBean" class="com.cts.app.AcService.entity.Employee">
+</bean>
+<bean name="dao2" class="com.cts.app.AcService.dao.impl.EmployeeDaoImpl"></bean>
+
+<bean name="repairBean" class="com.cts.app.AcService.entity.Repair">
+</bean>
+<bean name="dao3" class="com.cts.app.AcService.dao.impl.RepairDaoImpl"></bean>
+
+<bean name="loginBean" class="com.cts.app.AcService.entity.Login">
+</bean>
+<bean name="dao4" class="com.cts.app.AcService.dao.impl.LoginDaoImpl"></bean>
+
+<bean name="registerBean" class="com.cts.app.AcService.entity.Register">
+</bean>
+<bean name="dao5" class="com.cts.app.AcService.dao.impl.RegisterDaoImpl"></bean>
+</beans>
